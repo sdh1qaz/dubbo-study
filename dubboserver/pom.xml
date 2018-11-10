@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>dubboserver</name>
-	<description>Demo project for Spring Boot</description>
+	<description>dubboserver</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -35,6 +35,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- 引入dubbo依赖 -->
+		<dependency>
+            <groupId>io.dubbo.springboot</groupId>
+            <artifactId>spring-boot-starter-dubbo</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 	</dependencies>
 
 	<build>
